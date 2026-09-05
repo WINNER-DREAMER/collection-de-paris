@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Collection de Paris — Boutique &amp; Salon de coiffure, Abengourou</title>
+<meta name="description" content="Collection de Paris à Abengourou : sacs, perruques, parfums, pagnes et salon de coiffure. Braids, coloration, balayage. Commandez sur WhatsApp.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Aller au contenu</a>
+
+<!-- ===== HEADER ===== -->
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a href="#" class="logo">Collection <span>de Paris</span></a>
+    <nav class="main-nav" id="mainNav">
+      <a href="#boutique">Boutique</a>
+      <a href="#salon">Salon</a>
+      <a href="#galerie">Galerie</a>
+      <a href="#avis">Avis</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <button class="cart-btn" id="cartToggle" aria-label="Voir le panier">
+        Panier <span class="cart-count" id="cartCount">0</span>
+      </button>
+      <button class="nav-toggle" id="navToggle" aria-label="Ouvrir le menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ===== HERO ===== -->
+  <section class="hero">
+    <div class="wrap hero-inner">
+      <div class="hero-copy">
+        <p class="hero-eyebrow">Château, Abengourou</p>
+        <h1>Un sac pour chaque femme.<br>Une coupe pour chaque occasion.</h1>
+        <p class="hero-lede">Collection de Paris réunit une boutique d'articles divers — sacs, perruques, parfums, pagnes — et un salon de coiffure, au même endroit, depuis plus de trois ans.</p>
+        <div class="hero-ctas">
+          <a href="#boutique" class="btn btn-primary">Voir la boutique</a>
+          <a href="#salon" class="btn btn-outline">Voir le salon</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <img src="assets/images/hero-bag.jpg" alt="Sac à main Chrisbella beige et camel avec portefeuille assorti" width="640" height="640">
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== BOUTIQUE ===== -->
+  <section class="section" id="boutique">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>La boutique</h2>
+        <p>Sacs, perruques, parfums et pagnes — une sélection renouvelée régulièrement.</p>
+      </div>
+
+      <div class="filter-row" id="filterRow">
+        <button class="filter-chip is-active" data-filter="all">Tout</button>
+        <button class="filter-chip" data-filter="sacs">Sacs</button>
+        <button class="filter-chip" data-filter="perruques">Perruques</button>
+        <button class="filter-chip" data-filter="parfums">Parfums</button>
+        <button class="filter-chip" data-filter="pagnes">Pagnes</button>
+      </div>
+
+      <div class="product-grid" id="productGrid">
+        <!-- Injecté par JS depuis products.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SALON ===== -->
+  <section class="section section-alt" id="salon">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Le salon de coiffure</h2>
+        <p>Hairstyling, coloration, balayage, box braids et plus — pour toutes les coiffures.</p>
+      </div>
+
+      <div class="services-layout">
+        <div class="services-image">
+          <img src="assets/images/salon-1.jpg" alt="Intérieur du salon de coiffure Collection de Paris, fauteuils et miroir" width="560" height="640">
+        </div>
+        <ul class="services-list">
+          <li><span>Hairstyling</span><p>Mise en forme et coiffage pour toutes occasions.</p></li>
+          <li><span>Hair colouring</span><p>Coloration complète, du naturel à l'audacieux.</p></li>
+          <li><span>Balayage</span><p>Dégradé de couleur soigné, effet lumineux.</p></li>
+          <li><span>Box braids</span><p>Tresses protectrices, plusieurs longueurs et styles.</p></li>
+          <li><span>Hair glossing</span><p>Brillance et soin après coloration ou tressage.</p></li>
+          <li><span>Blow dry</span><p>Brushing professionnel, tenue longue durée.</p></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GALERIE ===== -->
+  <section class="section" id="galerie">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Sur place</h2>
+        <p>La boutique et le salon, tels que vous les trouverez à Château, Abengourou.</p>
+      </div>
+      <div class="gallery-grid">
+        <img src="assets/images/gallery-5.jpg" alt="Devanture de la boutique Collection de Paris, enseigne rose" loading="lazy">
+        <img src="assets/images/gallery-1.jpg" alt="Présentoir de perruques à l'entrée de la boutique" loading="lazy">
+        <img src="assets/images/gallery-6.jpg" alt="Rayonnage de sacs à main colorés dans la boutique" loading="lazy">
+        <img src="assets/images/gallery-2.jpg" alt="Étagères de produits capillaires et cosmétiques" loading="lazy">
+        <img src="assets/images/gallery-4.jpg" alt="Coin coiffure avec sèche-cheveux, bac à shampoing et miroir" loading="lazy">
+        <img src="assets/images/gallery-3.jpg" alt="Étagère de produits de soins et cosmétiques du salon" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== AVIS ===== -->
+  <section class="section section-alt" id="avis">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Ce qu'on en dit</h2>
+        <p>5 étoiles sur Google Maps — l'avis de nos clientes.</p>
+      </div>
+      <div class="reviews-grid">
+        <blockquote class="review-card">
+          <p>« Une boutique agréable avec un large choix de sacs et un salon toujours propre. »</p>
+          <cite>Cliente</cite>
+        </blockquote>
+        <blockquote class="review-card">
+          <p>« Le personnel prend le temps de bien conseiller, que ce soit pour un sac ou une coiffure. »</p>
+          <cite>Cliente</cite>
+        </blockquote>
+        <blockquote class="review-card">
+          <p>« Bonne adresse à Abengourou pour trouver des articles de qualité à prix correct. »</p>
+          <cite>Cliente</cite>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="section" id="contact">
+    <div class="wrap contact-inner">
+      <div class="contact-info">
+        <h2>Nous trouver</h2>
+        <dl class="info-list">
+          <div><dt>Adresse</dt><dd>Château, Abengourou, Côte d'Ivoire &mdash; en face de l'ancienne agence Orange</dd></div>
+          <div><dt>Téléphone</dt><dd><a href="tel:+2250505863652">05 05 86 36 52</a> / <a href="tel:+2250140491329">01 40 49 13 29</a></dd></div>
+          <div><dt>Horaires</dt><dd id="hoursText">Ouvert tous les jours &middot; 9h – 23h</dd></div>
+        </dl>
+        <div class="contact-btns">
+          <a href="https://wa.me/2250140491329" class="btn btn-primary" target="_blank" rel="noopener">Écrire sur WhatsApp</a>
+          <a href="https://www.google.com/maps/search/?api=1&query=Ch%C3%A2teau%2C+Abengourou%2C+C%C3%B4te+d%27Ivoire+en+face+de+l%27ancienne+agence+Orange" class="btn btn-outline" target="_blank" rel="noopener">Voir sur Google Maps</a>
+        </div>
+      </div>
+      <div class="contact-map">
+        <iframe
+          title="Localisation Collection de Paris, Château, Abengourou, en face de l'ancienne agence Orange"
+          src="https://www.google.com/maps?q=Ch%C3%A2teau%2C+Abengourou%2C+en+face+de+l%27ancienne+agence+Orange%2C+C%C3%B4te+d%27Ivoire&output=embed"
+          width="100%" height="360" style="border:0" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <p>&copy; <span id="year"></span> Collection de Paris — Abengourou, Côte d'Ivoire</p>
+    <p class="footer-credit">Site réalisé par Pacôme Déo-gratias ZOKPODO (WINNER DREAMER), CEO de Digit Communication</p>
+  </div>
+</footer>
+
+<!-- ===== PANIER (drawer) ===== -->
+<div class="cart-overlay" id="cartOverlay"></div>
+<aside class="cart-drawer" id="cartDrawer" aria-label="Panier">
+  <div class="cart-drawer-head">
+    <h3>Votre panier</h3>
+    <button id="cartClose" aria-label="Fermer le panier">&times;</button>
+  </div>
+  <div class="cart-items" id="cartItems"></div>
+  <div class="cart-footer">
+    <div class="cart-note">Les prix sont donnés à titre indicatif. Le montant final est confirmé sur WhatsApp.</div>
+    <button class="btn btn-primary btn-block" id="cartCheckout">Commander sur WhatsApp</button>
+  </div>
+</aside>
+
+<!-- ===== MODALE PRODUIT ===== -->
+<div class="modal-overlay" id="productOverlay"></div>
+<div class="product-modal" id="productModal">
+  <button class="modal-close" id="productModalClose" aria-label="Fermer">&times;</button>
+  <div class="product-modal-inner" id="productModalInner"></div>
+</div>
+
+<script src="assets/js/products.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
